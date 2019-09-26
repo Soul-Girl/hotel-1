@@ -1,0 +1,33 @@
+.heading-2{
+    font-size: 4rem;
+    font-style: italic;
+    line-height: 1;
+    color: var(--color-grey-dark-1);
+}
+
+.heading-3{ 
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+
+.story-text {
+    font-style: italic;
+    font-size: 1.3rem;    
+}
+
+button.str-btn{
+    background-color: var(--color-primary);
+    color: $color-white;
+    border: none;
+    border-radius: 0;
+    font-family: Open-Sans;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1.8rem 3rem; 
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover{
+        background-color: var(--color-primary-dark);
+    }
+}

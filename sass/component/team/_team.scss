@@ -1,0 +1,32 @@
+.section {
+  &__main {
+    padding: 3rem;
+  }
+  &__divider {
+    display: flex;
+    &:not(:last-child) {
+      margin-bottom: 12rem;
+    }
+  }
+  &__img {
+    padding: 2rem 1rem;
+    & img {
+      width: 40rem;
+      height: 40rem;
+      border-radius: 100%;
+    }
+  }
+  &__text {
+    padding-left: 1rem;
+    text-align: center;
+
+    & h1 {
+      color: mediumspringgreen;
+      font-size: 7rem;
+    }
+    & p {
+      color: cornsilk;
+      font-size: 4rem;
+    }
+  }
+}

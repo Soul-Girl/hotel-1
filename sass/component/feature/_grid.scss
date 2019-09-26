@@ -1,0 +1,13 @@
+.row {
+    max-width: $grid-width;
+    margin: auto;
+    display: flex;
+
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
+       
+    }
+}
+.in{
+   margin: auto 2rem;
+}

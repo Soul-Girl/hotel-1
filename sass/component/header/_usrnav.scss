@@ -1,0 +1,26 @@
+.user-nav {
+  width: 86%;
+
+  &__menu {
+    text-align: right;
+    width: 80%;
+    margin: 0 auto;
+
+    & li {
+      padding: 2.25rem 3rem;
+      list-style: none;
+      display: inline-block;
+
+      &:hover {
+        background-color: var(--color-grey-light-2);
+      }
+
+      & a {
+        text-decoration: none;
+        color: var(--color-grey-dark-2);
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

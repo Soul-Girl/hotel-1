@@ -1,0 +1,19 @@
+
+.section-deal {
+    background-color: #f7f7f7;
+    padding: 15rem 2rem;
+    display: grid;
+    margin: auto 1rem;
+    grid-gap: 5rem;
+}
+
+.head-sec{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-light));
+    display: inline-block;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+}

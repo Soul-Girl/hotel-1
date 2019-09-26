@@ -1,0 +1,18 @@
+.story__img{
+
+    &--1{
+      width: 100%;
+      grid-row: 6 / 4;
+      grid-column: 2 / 8;
+      box-shadow: 0 2rem 5rem  rgba(#000, .1);
+    }
+
+    &--2{
+       width: 116%;
+       grid-row: 8 / 5;
+       grid-column: 5 / 9; 
+       box-shadow: 0 2rem 5rem  rgba(#000, .2);
+       z-index: 20;
+    }
+
+}

@@ -1,0 +1,31 @@
+.story {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-rows: 35vw;
+    grid-template-columns: [start] 1fr repeat(4, [col-start] minmax(min-content, 20rem)[col-end]) 1fr [end];
+
+
+    &__pictures {
+        background-color: var(--color-grey-dark-1);
+        grid-column: start / col-end 2;
+
+        display: grid;
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-columns: repeat(8, 1fr);
+        align-items: center;
+
+        background-image: url(/img/hotel-3.jpg);
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: var(--color-grey-light-1);
+        grid-column: col-start 3 / end;
+        padding: 2% 12% 2% 18%;
+        letter-spacing: 0.057rem;
+    }
+
+}
