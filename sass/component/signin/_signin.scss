@@ -1,0 +1,55 @@
+.signin {
+  &_grp:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+
+  &_in {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+
+    border-radius: 2px;
+    background-color: rgba($color-white, 0.8);
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 40%;
+    box-sizing: unset;
+    display: block;
+    transition: all 0.3s;
+
+    // &:focus {
+    //   outline: none;
+    //   box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+    //   border-bottom: 3px solid $color-primary;
+    // }
+
+    // &:focus:invalid {
+    //   border-bottom: 3px solid $color-secondary-dark;
+    // }
+
+    // &::-webkit-input-placeholder {
+    //   color: $color-grey-dark-2;
+    // }
+  }
+  &_lab {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+  }
+}
+
+.margin-bottom {
+  margin-bottom: 2rem !important;
+  align-content: center;
+}
+
+.head-1 {
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.2rem;
+  //   transition: all 0.2s;
+}
